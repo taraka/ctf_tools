@@ -47,6 +47,7 @@ Used to execute and oracle padding attack
 
 ##### Radare
 ##### readelf
+##### checksec
 
 ## Misc
 
