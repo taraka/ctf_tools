@@ -11,11 +11,16 @@ This repo is intended to serve as a list of tools that I've found useful during 
 
 ##### wfuzz
 
+##### Gobuster
+
 ## Web
+
+Looks for `sitemap.xml` or `robots.txt`
+
+
 
 ##### Burpsuite
 ##### SQLMap
-##### Gobuster
 
 
 ## Cracking
@@ -32,6 +37,7 @@ Used to execute and oracle padding attack
 
 ## Forensics
 
+##### strings
 ##### Foremost
 ##### Bin Walk
 
@@ -42,12 +48,15 @@ Used to execute and oracle padding attack
 ##### Steg Crack
 ##### Steg Hide
 ##### zsteg
+##### jsteg
 
 ## Reversing
 
 ##### Radare
 ##### readelf
 ##### checksec
+##### angr
+##### z3
 
 ## Misc
 
