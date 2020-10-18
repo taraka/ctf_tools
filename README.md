@@ -12,6 +12,12 @@ Basic scan all ports
 
 
 ##### wfuzz
+Fuzz urls
+`$ wfuzz -w wordlist/general/common.txt http://testphp.vulnweb.com/FUZZ.php`
+Fuzz post requests
+`$ wfuzz -z file,wordlist/others/common_pass.txt -d "uname=FUZZ&pass=FUZZ"`
+Fuzz Cookies
+`$ wfuzz -z file,wordlist/general/common.txt -b cookie=value1 -b cookie2=value2 http://testphp.vulnweb.com/FUZZ`
 
 ##### Gobuster
 
@@ -57,14 +63,24 @@ https://github.com/volatilityfoundation/community
 
 ##### Exiftool
 ##### Stegsolve
-##### Steg Crack
-##### Steg Hide
-##### zsteg
-##### jsteg
+##### [StegCracker](https://github.com/Paradoxis/StegCracker)
+Bruteforce steg hide with a wordlist 
+##### [steghide](http://steghide.sourceforge.net/)
+##### [zsteg](https://github.com/zed-0xff/zsteg)
+detect stegano-hidden data in PNG & BMP
+##### [jsteg](https://github.com/lukechampine/jsteg)
+Lsb stegonography for JPEG
 ##### pngcheck
-
+##### [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit)
+Docker image that does stegonography magic
 ##### Online tools
 https://stylesuxx.github.io/steganography/
+
+
+## Network
+##### Wireshark
+##### NetworkMiner
+Finds files and other things in pcap files, requires mono
 
 ## Reversing
 
@@ -75,7 +91,9 @@ https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf
 
 ##### [checksec](https://github.com/slimm609/checksec.sh)
 ##### angr
-##### z3
+##### [z3](https://github.com/Z3Prover/z3)
+##### [libc-database](https://github.com/niklasb/libc-database)
+https://libc.rip/
 
 ## Misc
 
@@ -84,6 +102,11 @@ https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf
 `python -c 'import pty; pty.spawn("/bin/sh")'`
 `stty raw -echo`
 
+
+##### Linux enumeration
+[Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
+[Linenum](https://github.com/rebootuser/LinEnum)
+
 ##### Wordlists
 [Rockyou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
 [SecLists](https://github.com/danielmiessler/SecLists)
@@ -91,10 +114,11 @@ https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf
 ###### Cewl 
 Wordlist generator
 
+##### Regripper
+Windows registery extraction tool, requires wine
+
+## Links
+##### [CyberChef](https://gchq.github.io/CyberChef/)
 ##### [Virus total](https://www.virustotal.com/)
 ##### [Have I been Pwned](https://haveibeenpwned.com/)
 
-
-##### Linux enumeration
-[Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
-[Linenum](https://github.com/rebootuser/LinEnum)
