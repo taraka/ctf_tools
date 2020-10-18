@@ -36,8 +36,8 @@ https://github.com/frizb/Hashcat-Cheatsheet
 
 ## pwn
 
-##### pwntools
-https://github.com/Gallopsled/pwntools
+##### [pwntools](https://github.com/Gallopsled/pwntools)
+
 ##### ROP Gadet
 
 ## Forensics
@@ -73,8 +73,7 @@ https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf
 
 ##### readelf
 
-##### checksec
-https://github.com/slimm609/checksec.sh
+##### [checksec](https://github.com/slimm609/checksec.sh)
 ##### angr
 ##### z3
 
@@ -86,16 +85,16 @@ https://github.com/slimm609/checksec.sh
 `stty raw -echo`
 
 ##### Wordlists
-(Rockyou)[https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt]
-(SecLists)[https://github.com/danielmiessler/SecLists]
+[Rockyou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+[SecLists](https://github.com/danielmiessler/SecLists)
 
 ###### Cewl 
 Wordlist generator
 
-##### (Virus total)[https://www.virustotal.com/]
-##### (Have I been Pwned)[https://haveibeenpwned.com/]
+##### [Virus total](https://www.virustotal.com/)
+##### [Have I been Pwned](https://haveibeenpwned.com/)
 
 
 ##### Linux enumeration
-(Linpeas)[https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS]
-(Linenum)[https://github.com/rebootuser/LinEnum]
+[Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
+[Linenum](https://github.com/rebootuser/LinEnum)
