@@ -86,15 +86,16 @@ https://github.com/slimm609/checksec.sh
 `stty raw -echo`
 
 ##### Wordlists
-https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
-https://github.com/danielmiessler/SecLists
+(Rockyou)[https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt]
+(SecLists)[https://github.com/danielmiessler/SecLists]
 
 ###### Cewl 
 Wordlist generator
 
-##### Virus total
-https://www.virustotal.com/
+##### (Virus total)[https://www.virustotal.com/]
+##### (Have I been Pwned)[https://haveibeenpwned.com/]
 
-##### Have I been Pwned
-https://haveibeenpwned.com/
 
+##### Linux enumeration
+(Linpeas)[https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS]
+(Linenum)[https://github.com/rebootuser/LinEnum]
