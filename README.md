@@ -95,6 +95,9 @@ https://github.com/zxgio/r2-cheatsheet/blob/master/r2-cheatsheet.pdf
 ##### [libc-database](https://github.com/niklasb/libc-database)
 https://libc.rip/
 
+## Crypto
+##### [Prime factorisation](https://www.alpertron.com.ar/ECM.HTM)
+
 ## Misc
 
 ##### Reverse Shell
@@ -102,6 +105,7 @@ https://libc.rip/
 `python -c 'import pty; pty.spawn("/bin/sh")'`
 `stty raw -echo`
 
+<<<<<<< Updated upstream
 
 ##### Linux enumeration
 [Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
@@ -121,4 +125,6 @@ Windows registery extraction tool, requires wine
 ##### [CyberChef](https://gchq.github.io/CyberChef/)
 ##### [Virus total](https://www.virustotal.com/)
 ##### [Have I been Pwned](https://haveibeenpwned.com/)
+##### [asm simulator](https://carlosrafaelgn.com.br/asm86/)
+
 
