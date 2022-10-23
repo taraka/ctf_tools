@@ -121,10 +121,14 @@ Wordlist generator
 ##### Regripper
 Windows registery extraction tool, requires wine
 
+## Specs
+[PNG](http://www.libpng.org/pub/png/spec/1.2/PNG-Structure.html)
+
+
 ## Links
 ##### [CyberChef](https://gchq.github.io/CyberChef/)
 ##### [Virus total](https://www.virustotal.com/)
 ##### [Have I been Pwned](https://haveibeenpwned.com/)
 ##### [asm simulator](https://carlosrafaelgn.com.br/asm86/)
-
-
+##### [Image Puzzle](https://github.com/hummingbird-12/image_puzzle)
+##### [Grammar parser](https://github.com/lark-parser/lark)
